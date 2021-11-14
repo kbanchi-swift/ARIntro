@@ -6,12 +6,24 @@
 //
 
 import UIKit
+import ARKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sceneView: ARSCNView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //shipのシーンを読み込んで生成してARSCNViewにセット
+        sceneView.scene = SCNScene(named: "art.scnassets/ship/ship.scn")!
+        
+        //コンフィギュレーションを生成
+        let configuration = ARWorldTrackingConfiguration()
+        
+        //セッションを開始
+        sceneView.session.run(configuration)
     }
 
 

@@ -17,6 +17,7 @@
 		80B60DBB273E5BB9001A0CD4 /* ARIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B60DBA273E5BB9001A0CD4 /* ARIntroTests.swift */; };
 		80B60DC5273E5BB9001A0CD4 /* ARIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B60DC4273E5BB9001A0CD4 /* ARIntroUITests.swift */; };
 		80B60DC7273E5BB9001A0CD4 /* ARIntroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B60DC6273E5BB9001A0CD4 /* ARIntroUITestsLaunchTests.swift */; };
+		80B60DD4273E5CFE001A0CD4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B60DD3273E5CFE001A0CD4 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		80B60DC0273E5BB9001A0CD4 /* ARIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B60DC4273E5BB9001A0CD4 /* ARIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARIntroUITests.swift; sourceTree = "<group>"; };
 		80B60DC6273E5BB9001A0CD4 /* ARIntroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARIntroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80B60DD3273E5CFE001A0CD4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				80B60DAC273E5BB9001A0CD4 /* Assets.xcassets */,
 				80B60DAE273E5BB9001A0CD4 /* LaunchScreen.storyboard */,
 				80B60DB1273E5BB9001A0CD4 /* Info.plist */,
+				80B60DD3273E5CFE001A0CD4 /* art.scnassets */,
 				80B60DA9273E5BB8001A0CD4 /* ARIntro.xcdatamodeld */,
 			);
 			path = ARIntro;
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B60DB0273E5BB9001A0CD4 /* LaunchScreen.storyboard in Resources */,
+				80B60DD4273E5CFE001A0CD4 /* art.scnassets in Resources */,
 				80B60DAD273E5BB9001A0CD4 /* Assets.xcassets in Resources */,
 				80B60DA8273E5BB8001A0CD4 /* Main.storyboard in Resources */,
 			);
